@@ -1,19 +1,18 @@
-# Technigo React Starter App
+# Project description
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+I have built Frontend app by using React that uses my first created API that is built using Node.js and Express.
+The app shows Netflix movies and their details.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+It was a great learning experience having built both the Backend and Frontend of a project for the first time.
 
-## Usage
+## The problem
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+The app shows the whole list of all the movies in the database. Since there are over 1000 movies I am whowing first 10 movies when the page is loaded and I implemented 'Load more' button which is widly used in e-commerce websites to load new items on a website. I find this feature very useful and user friendly.
 
-Alternatively, if you don't want a new git repo on your account;
+## View it live
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Netflix Movies API live in Heroku: https://netflix-movie-data.herokuapp.com/movies
+
+Frontend repository: https://github.com/Irina-web-dev/netflix-titles
+
+And a Live website using this API here: https://focused-brahmagupta-68bd22.netlify.app
